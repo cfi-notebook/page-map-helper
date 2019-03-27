@@ -1,0 +1,23 @@
+{
+  "name": "@cfi-notebook/page-map-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfi-notebook/page-map-helper.git"
+  },
+  "contributors": [
+    "Michael McCracken <michael.mccracken172@gmail.com>",
+    "Ryan Burnette <ryan.burnette@gmail.com>"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfi-notebook/page-map-helper/issues"
+  },
+  "homepage": "https://github.com/cfi-notebook/page-map-helper#readme",
+  "dependencies": {
+    "js-yaml": "^3.13.0"
+  }
+}
