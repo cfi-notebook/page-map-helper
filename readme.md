@@ -18,7 +18,7 @@ var startPages = [5,20,32,42]; // start page for each chapter, plus the last pag
 console.log(pageMapHelper(chapters,strPages));
 ```
 
-Returns a string...
+This demo console.logs a string that you then copy/paste.
 
 ```yaml
 - 1-4#8
