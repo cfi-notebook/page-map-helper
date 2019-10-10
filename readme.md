@@ -1,24 +1,24 @@
-# @cfi-notebook/page-map-helper
+# [cfi-notebook/page-map-helper](https://github.com/cfi-notebook/page-map-helper)
 
-## Description
+[![repo](https://img.shields.io/badge/repository-Github-black.svg?style=flat-square)](https://github.com/cfi-notebook/page-map-helper)
+[![npm](https://img.shields.io/badge/package-NPM-green.svg?style=flat-square)](https://www.npmjs.com/package/@cfi-notebook/page-map-helper)
 
-A shortcut library for building reference maps for `1-1` style chapters where
-we know the page on which each chapter starts and need a reference to each
-page.
+A time saver for building reference maps for `1-1` style chapters where we know
+the page on which each chapter starts and need a reference to each page.
 
 ## Usage
 
-```javascript
+```js
 // build.js
 var pageMapHelper = require('@cfi-notebook/page-map-helper');
 
-var chapters = [1,2,3]; // chapters
-var startPages = [5,20,32,42]; // start page for each chapter, plus the last page of the last chapter plus one
+var chapters = [1, 2, 3]; // chapters
+var startPages = [5, 20, 32, 42]; // start page for each chapter, plus the last page of the last chapter plus one
 
-console.log(pageMapHelper(chapters,strPages));
+console.log(pageMapHelper(chapters, startPages));
 ```
 
-This demo console.logs a string that you then copy/paste.
+This demo prints output that you then copy and paste into your content file.
 
 ```yaml
 - 1-4#8
